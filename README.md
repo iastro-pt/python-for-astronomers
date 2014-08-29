@@ -1,4 +1,4 @@
-python-for-astronomers
+Python for Astronomers
 ======================
 
 CAUP Advanced Course
