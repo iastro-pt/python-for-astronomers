@@ -21,6 +21,7 @@ Plugins for almost everything                        | Difficult to configure
 Support on linux, OSX, and Windows                   | Does not run your scripts
 Installed on most linux server you will ever work on |
 
+The "expert": Daniel. Feel free to ask him for configuration, plugins, etc.
 
 
 Sublime text
