@@ -15,7 +15,7 @@ vim
 ===
 
 pros                               | cons
-------------------------------
+-----------------------------------|-----
 Extremely configurable             | Extremely steep learning curve
 Plugins for almost everything      | Difficult to configure
 Support on linux, OSX, and Windows | Does not run your scripts
