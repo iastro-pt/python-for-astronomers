@@ -26,6 +26,8 @@ The "expert": Daniel. Feel free to ask him for configuration, plugins, etc.
 Sublime text
 ============
 
+Official website: http://www.sublimetext.com/
+
 pros                                                 | cons
 -----------------------------------------------------| -----
 Extremely configurable                               | Not free, USD $70 (but can be used for free forever)
