@@ -1,9 +1,8 @@
 Editors for Python
 ==================
 
-Here follow a description of some editors useful for Python with pros and cons
-for each. Many more editors may be added. We just picked some of the most
-popular.
+Below is a description of some editors useful for Python with pros and cons for each. 
+The list is not exhaustive, we just picked some of the most popular.
 
 
 Spyder
@@ -26,7 +25,18 @@ The "expert": Daniel. Feel free to ask him for configuration, plugins, etc.
 
 Sublime text
 ============
-Maybe João can write a few lines like Daniel did on vim
+
+Official website: http://www.sublimetext.com/
+
+pros                                                 | cons
+-----------------------------------------------------| -----
+Extremely configurable                               | Not free, USD $70 (but can be used for free forever)
+Plugin system (very easy installation)               | Can't print
+Available on Linux, OSX, and Windows                 | 
+Very fast                                            |
+Has some IDE features                                |
+
+The "expert": João. Feel free to ask him for configuration, plugins, etc.
 
 
 Eclipse + pydev
