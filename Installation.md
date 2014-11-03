@@ -66,18 +66,21 @@ from any of the above commands, go to [(3)](#install-packages). If there is no o
 (1) Installing Python
 -----------------
 
+How the hell do you install Python?
 
 
 <a name="install-ipython"/>
 (2) Installing IPython
 ------------------
 
-
+pip install ipython
 
 
 <a name="install-packages"/>
 (3) Installing Numpy, Matplotlib and Scipy
 --------------------------------------
 
-
+pip install numpy
+pip install matplotlib
+pip install scipy
 
