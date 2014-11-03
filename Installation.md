@@ -21,8 +21,7 @@ To test this, open a terminal and type
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-you should see similar output to the above. If you don't, go to (1).
-This is [link text](#install-python) reference-style link.
+you should see similar output to the above. If you don't, go to [(1)](#install-python).
 
 Check Python's version number; it should be higher than 2.7.0. If your version is 3.x.x tell us before the practical class.
 
@@ -44,7 +43,7 @@ To check if you have Ipython installed just type
     
     In [1]: 
 
-If you see similar output, all is fine. If you don't, go to (2).
+If you see similar output, all is fine. If you don't, go to [(2)](#install-ipython).
 
 (Note: press Ctrl-D or type `exit` to get out of the IPython interpreter)
 
@@ -61,6 +60,24 @@ if you see errors like this
       File "<string>", line 1, in <module>
     ImportError: No module named numpy
     
-    
+from any of the above commands, go to [(3)](#install-packages). If there is no output from the commands, everything is fine.
+
 <a name="install-python"/>
-Blabla lblalblwefref
+(1) Installing Python
+-----------------
+
+
+
+<a name="install-ipython"/>
+(2) Installing IPython
+------------------
+
+
+
+
+<a name="install-packages"/>
+(3) Installing Numpy, Matplotlib and Scipy
+--------------------------------------
+
+
+
