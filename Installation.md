@@ -22,6 +22,7 @@ To test this, open a terminal and type
     >>>
 
 you should see similar output to the above. If you don't, go to (1).
+This is [link text](#install-python) reference-style link.
 
 Check Python's version number; it should be higher than 2.7.0. If your version is 3.x.x tell us before the practical class.
 
@@ -61,3 +62,5 @@ if you see errors like this
     ImportError: No module named numpy
     
     
+<a name="install-python"/>
+Blabla lblalblwefref
