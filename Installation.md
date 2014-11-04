@@ -21,7 +21,7 @@ To test this, open a terminal and type
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-you should see similar output to the above. If you don't, go to [(1)](#install-python).
+you should see similar output to the above. If you don't, go to [(0)](#install-python).
 
 Check Python's version number; it should be higher than 2.7.0. If your version is 3.x.x tell us before the practical class.
 
@@ -30,6 +30,7 @@ Check Python's version number; it should be higher than 2.7.0. If your version i
 
 To check if you have Ipython installed just type 
 
+    $ ipython
     Python 2.7.8 |Anaconda 2.1.0 (32-bit)| (default, Aug 21 2014, 18:22:40) 
     Type "copyright", "credits" or "license" for more information.
 
@@ -62,25 +63,66 @@ if you see errors like this
     
 from any of the above commands, go to [(3)](#install-packages). If there is no output from the commands, everything is fine.
 
+
 <a name="install-python"/>
-(1) Installing Python
+(0) Installing Python
 -----------------
 
-How the hell do you install Python?
+If you are on Linux, this should work
+sudo apt-get install python2.7
+
+If you're on Windows, try downloading and installing the [Python 2.7.8 executable](https://www.python.org/downloads/windows/) appropriate for your system.
+
+If you're on Mac OS X, download and install this [Python 2.7.8 executable](https://www.python.org/downloads/mac-osx/).
+
+(1) Installing `pip`
+-------------------
+
+On debian (Ubuntu) just type the following in a terminal
+
+    sudo apt-get install python-pip
+
+On CentOS or Fedora type
+
+    sudo yum install python-pip
+    
+To test the installation type `pip -V` and it should output the version as well the Python version.
 
 
 <a name="install-ipython"/>
 (2) Installing IPython
 ------------------
 
-pip install ipython
+To install IPython type in a terminal (you may need to use `sudo` before)
+
+    pip install ipython
+
+If you don't have pip, see (1).
 
 
 <a name="install-packages"/>
 (3) Installing Numpy, Matplotlib and Scipy
 --------------------------------------
 
-pip install numpy
-pip install matplotlib
-pip install scipy
+To install Numpy, Matplotlib, Scipy and Astropy just type
+
+    pip install numpy
+    pip install matplotlib
+    pip install scipy
+    pip install astropy
+    
+If you don't have pip, see (1).
+
+
+
+Links
+=====
+
+   * [Python](https://www.python.org/)
+   * [IPython](http://ipython.org/)
+   * [Numpy](http://www.numpy.org/)
+   * [Scipy](http://www.scipy.org/)
+   * [Matplotlib](http://matplotlib.org/)
+   * [Astropy](http://www.astropy.org/)
+
 
