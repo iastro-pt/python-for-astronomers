@@ -1,7 +1,7 @@
 Editors for Python
 ==================
 
-Below is a description of some editors useful for Python with pros and cons for each. 
+Below is a description of some editors useful for Python with pros and cons for each.
 The list is not exhaustive, we just picked some of the most popular.
 
 
@@ -12,6 +12,8 @@ Maybe Sérgio can write a few lines like Daniel did on vim
 
 vim
 ===
+
+Official website: http://vim.org
 
 pros                                                 | cons
 -----------------------------------------------------| -----
@@ -32,17 +34,30 @@ pros                                                 | cons
 -----------------------------------------------------| -----
 Extremely configurable                               | Not free, USD $70 (but can be used for free forever)
 Plugin system (very easy installation)               | Can't print
-Available on Linux, OSX, and Windows                 | 
+Available on Linux, OSX, and Windows                 |
 Very fast                                            |
 Has some IDE features                                |
 
 The "expert": João. Feel free to ask him for configuration, plugins, etc.
 
 
-Eclipse + pydev
-===============
-
-
 
 gedit, notepad, etc.
 ====================
+
+pros                                     | cons
+-----------------------------------------| -----
+Easy to use                              | Not much configuration
+Should be an equivalent on all systems   | Does not help you when editing
+Can have some IDE features               | Very few if any plugins 
+
+
+Others
+===============
+
+You can use any plain editor (so nor word!). Here is some suggestions.
+
+   * Eclipse + pydev
+   * geany
+   * Emacs
+   * Many more...
