@@ -4,6 +4,12 @@ Editors for Python
 Below is a description of some editors useful for Python with pros and cons for each.
 The list is not exhaustive, we just picked some of the most popular.
 
+What makes a good editor
+
+   * Configurable (change/remove settings you do not like)
+   * Syntax highlighting
+   * Tab- and autocompletion
+
 
 Spyder
 ======
@@ -49,7 +55,7 @@ pros                                     | cons
 -----------------------------------------| -----
 Easy to use                              | Not much configuration
 Should be an equivalent on all systems   | Does not help you when editing
-Can have some IDE features               | Very few if any plugins 
+Can have some IDE features               | Very few if any plugins
 
 
 Others
