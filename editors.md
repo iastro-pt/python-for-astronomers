@@ -19,7 +19,7 @@ Official website: https://code.google.com/p/spyderlib/
 vim
 ===
 
-Official website: http://vim.org
+Official website: http://www.vim.org/
 
 pros                                                 | cons
 -----------------------------------------------------| -----
