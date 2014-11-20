@@ -1,5 +1,5 @@
 parameter1 = 42
 Funny info = True
 Universe = real
-stars = 10
+stars = 20
 lecturer = sergio, joao, daniel
