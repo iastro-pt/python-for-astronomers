@@ -13,7 +13,7 @@ What makes a good editor
 
 Spyder
 ======
-Maybe Sérgio can write a few lines like Daniel did on vim
+Official website: https://code.google.com/p/spyderlib/
 
 
 vim
