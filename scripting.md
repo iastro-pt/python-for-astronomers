@@ -2,13 +2,14 @@ Class 4 - Scripting
 ===================
 
 There may be some confusion on the difference between **scripts** and
-**programs** with good reason. In this course a script is something that follow
-the below "rules"
+**programs**, with good reason. A *script*, as we call it here (also known as a command-line application) is a particular kind of computer program designed to be used from a shell. Scripts usually accept various inputs as arguments, often referred to as parameters or sub-commands, as well as options, often referred to as flags or switches.
 
-   1.
+A *program*, in this sense, can be thought of as some Python code that always runs the same way and always performs the same action. Therefore programs are meant to be run as `python program.py` (or `run program.py` from within IPython) and do not take extra options. 
 
-In this class we would like to present some modules for Python that might be
-interesting.
+As an example of a script, consider the `ls` command on Linux systems. Notice how the output of that command changes when you call it with some options: the output of `ls` is different from that of `ls -lrt`. Run `man ls` and you will see the help (or manual) page of the command, where you can get a thorough overview of the available options. 
+
+
+In this class we would like to present some modules for creating scripts in Python that might be interesting.
 
 
 ## [argparse](https://docs.python.org/3/library/argparse.html)
@@ -56,6 +57,8 @@ _always_ be specified. However, let's try to run with the `-h` flag.
                             Output file
       -r RV, --rv RV        RV velocity in km/s
 
+It is conventional to use `-h` or `--help` to obtain the help page for a command (notice that we did not define this option in `test1.py`). This is the same thing as when we ran `man ls` before.
+
 The `optional arguments` are only invoked when the flag is specified. Let's
 try:
 
@@ -100,8 +103,10 @@ and you should be embarrassed to share something like that.
 
 ### See also
 
-   * [Click](http://click.pocoo.org/3/). This looks very powerful and not to
-   complicated (install with `sudo pip install click`.
+   * [Click](http://click.pocoo.org/3/). This looks very powerful and not too
+   complicated (install with `sudo pip install click`).
+   * [docopt](http://docopt.org/). This package allows creating command-line interfaces 
+   easily and intuitively, by parsing POSIX-style usage instructions.
    * [optparse](https://docs.python.org/2/library/optparse.html). This is
    deprecated but can still be useful.
 
@@ -109,7 +114,7 @@ and you should be embarrassed to share something like that.
 Other tools
 ===========
 
-There are several other tools available. Here we will present a few.
+There are several other tools you can use to improve your scripts and their visual presentation in the terminal. Here we will present only a few.
 
 ## [clint](https://github.com/kennethreitz/clint) - colors in the terminal
 
@@ -154,7 +159,7 @@ something like this
         print i, '/', '1e9
 
 First of all, this is can be better by just printing every 1000 element, but
-your terminal is now fill with text that you really don't care about.
+your terminal is now filled with text that you really don't care about.
 
 Here is how to use `progressbar` written in `test3.py`
 
@@ -190,7 +195,7 @@ Conclusion
 It seems after some research that `Click` have much if not all of the above
 features: argument parsing, colors in the terminal, progressbar, etc.
 
-If you want to learn a knew module, I think this will be a good one (if not the
+If you want to learn a new module, I think this will be a good one (if not the
 best).
 
 Any missing documentation here is due to lack of knowledge :)
