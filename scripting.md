@@ -158,8 +158,8 @@ something like this
     for i in range(int(1e9)):
         print i, '/', '1e9
 
-First of all, this is can be better by just printing every 1000 element, but
-your terminal is now filled with text that you really don't care about.
+This can be better by just printing every 1000 element, but
+your terminal is now filled with text that you really don't care about at the end.
 
 Here is how to use `progressbar` written in `test3.py`
 
@@ -195,13 +195,5 @@ Conclusion
 It seems after some research that `Click` have much if not all of the above
 features: argument parsing, colors in the terminal, progressbar, etc.
 
-If you want to learn a new module, I think this will be a good one (if not the
-best).
-
-Any missing documentation here is due to lack of knowledge :)
-
-
-
-
-
-
+If you want to learn a new module, we think this will be a good one (if not the
+best). However our knowledge is sparse on this module.
