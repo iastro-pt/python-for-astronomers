@@ -1,13 +1,14 @@
-Python for Astronomers
-======================
+Python for Astronomers - 2016
+=============================
 
-CAUP Advanced Course
+Advanced Course
 
-Link to the notebooks can be found [here](http://nbviewer.ipython.org/github/j-faria/python-for-astronomers/tree/master/notebooks/).
+Link to the notebooks can be found BROKEN.
 
-The [wiki](https://github.com/j-faria/python-for-astronomers/wiki) page has more information.
+The [wiki](https://github.com/iastro-pt/python-for-astronomers/wiki) page has more information.
 
 Authors are
-   - [@j-faria](https://github.com/j-faria)
-   - [@DanielAndreasen](https://github.com/DanielAndreasen)
    - [@sousasag](https://github.com/sousasag)
+   - [@DanielAndreasen](https://github.com/DanielAndreasen)
+   - [@j-faria](https://github.com/j-faria)
+   
