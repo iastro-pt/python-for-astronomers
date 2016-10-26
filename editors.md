@@ -47,6 +47,21 @@ Has some IDE features                                |
 The "expert": João. Feel free to ask him for configuration, plugins, etc.
 
 
+Atom.io
+=======
+
+Official website: https://atom.io/
+
+pros                                                 | cons
+-----------------------------------------------------| -----
+Extremely configurable                               | Can be a bit slow, but a quick restart solves this
+Plugin system (very easy installation)               | Can't print
+Available on Linux, OSX, and Windows                 |
+Has some IDE features                                |
+
+The "expert": Daniel. Feel free to ask him for configuration, plugins, etc.
+
+
 
 gedit, notepad, etc.
 ====================
